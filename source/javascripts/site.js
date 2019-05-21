@@ -1,10 +1,10 @@
 //= require jquery
 //= require bootstrap
 
-const initUpdateNavbarOnScroll = () => {
-  const navbar = document.querySelector('.navbar-wagon');
+function initUpdateNavbarOnScroll() {
+  var navbar = document.querySelector('.navbar-wagon');
   if (navbar) {
-    window.addEventListener('scroll', (event) => {
+    window.addEventListener('scroll', function(event) {
       if (window.scrollY >= 800) {
         navbar.classList.add('navbar-wagon-white');
       } else {
