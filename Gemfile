@@ -11,4 +11,4 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'middleman-sprockets'
 gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
 gem 'pry-byebug', require: true
-
+gem "middleman-favicon-maker", "~> 4.1"
