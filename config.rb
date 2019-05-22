@@ -14,11 +14,6 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
   set :relative_links, true
-  activate :favicon_maker, :icons => {
-    "_favicon_template.png" => [
-      { icon: "source/images/icon.png", size: "16x16" }
-    ]
-  }
 end
 
 activate :deploy do |deploy|
